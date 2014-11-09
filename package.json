@@ -3,7 +3,13 @@
   "version": "0.1.0",
   "description": "grunt task to convert java i18n property files to json",
   "keywords": [
-    "gruntplugin java properties i18n l10n json js"
+    "gruntplugin",
+    "java",
+    "properties",
+    "i18n",
+    "l10n",
+    "json",
+    "js"
   ],
   "homepage": "https://github.com/Aconex/grunt-i18n-properties",
   "author": {
