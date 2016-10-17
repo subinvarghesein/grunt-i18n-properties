@@ -65,7 +65,7 @@
 					lang.order.forEach( function( langRef ) {
 						if( langRef in bundle ) {
 							Object.keys( bundle[ langRef ] ).forEach( function( k ) {
-								properties[ k ] = bundle[ langRef ][ k ];
+								properties[ k ] = bundle[ langRef ][ k ] || properties[ k ];
 							});
 						}
 					});
